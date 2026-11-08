@@ -4,32 +4,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Basics of Web Development - Ahmad Nawaz</title>
-
+    <title>Centria EDU - Gallery</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="fav.jpg">
+    <link rel="icon" href="favicon.ico">
 </head>
-
 <body>
 
     <header>
-        <h1>Basics of Web Development</h1>
-        <p>Welcome to my web development learning page.</p>
+        <div class="navbar">
+            <div class="logo">
+                centria <span>edu</span>
+            </div>
+
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="index.html#topics">Topics</a>
+                <a href="index.html#about">About</a>
+                <a href="gallery.html">Gallery</a>
+            </nav>
+        </div>
     </header>
 
-  <main class="photo-gallery">
-    <img src="image/1.jpg" alt="Gallery photo 1">
-    <img src="image/2.jpg" alt="Gallery photo 2">
-    <img src="image/3.jpg" alt="Gallery photo 3">
-  
-  </main>
+    <main>
+
+        <section class="gallery-heading">
+            <p class="subtitle">BASICS OF WEB DEVELOPMENT</p>
+
+            <h1>My Gallery</h1>
+
+            <p class="description">
+                Explore my collection of images and projects
+                related to web development and technology.
+            </p>
+        </section>
+
+        <section class="card-container">
+
+            <div class="card">
+                <img src="image/1.jpeg"
+                     alt="Airport">
+
+                <h2>Airport </h2>
+
+          
+            </div>
+
+            <div class="card">
+                <img src="image/2.jpeg"
+                     alt="Nature">
+
+                <h2>Nature</h2>
+
+               
+            </div>
+
+            <div class="card">
+                <img src="image/3.jpeg"
+                     alt="Winter">
+
+                <h2>Winter</h2>
+
+              
+            </div>
+
+        </section>
+
+        <div class="back-home">
+            <a href="index.html" class="button">Back to Home</a>
+        </div>
+
+    </main>
 
     <footer>
-        <p>Original author: Basics of Web Development</p>
-        <p>Modified by: Ahmad Nawaz</p>
+        <p>Modified by: ahmad nawaz</p>
     </footer>
 
 </body>
 </html>
-

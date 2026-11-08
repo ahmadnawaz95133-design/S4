@@ -4,69 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Basics of Web Development - Ahmad Nawaz</title>
-
+    <title>Centria EDU - Home</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="fav.jpg">
+    <link rel="icon" href="favicon.ico">
 </head>
-
 <body>
 
     <header>
-        <h1>Basics of Web Development</h1>
-        <p>Welcome to my web development learning page.</p>
+        <div class="navbar">
+            <div class="logo">
+                centria <span>edu</span>
+            </div>
+
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#topics">Topics</a>
+                <a href="#about">About</a>
+                <a href="gallery.html">Gallery</a>
+            </nav>
+        </div>
     </header>
 
     <main>
+        <section class="hero">
+            <p class="subtitle">BASICS OF WEB DEVELOPMENT</p>
 
-        <div class="card">
-            <h2>About Me</h2>
-            <p>
-                My name is Ahmad Nawaz. I am learning the basics of web
-                development and practicing HTML, CSS, and GitHub.
+            <h1>Learn how the<br>web works.</h1>
+
+            <p class="description">
+                Start from HTML and CSS and gradually build modern, responsive
+                and interactive web applications.
             </p>
-        </div> 
-         <div class="card">
-            <h2>Gallery</h2>
-            <p>
-               <a id="gale" href="gallery.html"> Gallery</a>
-            </p>
-        </div>
 
-        <div class="card">
-            <h2>My Learning</h2>
-            <p>Here are some tools and technologies I have learned:</p>
+            <a href="gallery.html" class="button">
+                Start learning
+            </a>
+        </section>
 
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Visual Studio Code</li>
-                <li>Live Server</li>
-                <li>GitHub Pages</li>
-            </ul>
-        </div>
+        <section id="topics" class="info-section">
+            <h2>Topics</h2>
+            <p>Explore the basics of HTML, CSS and web development.</p>
+        </section>
 
-        <div class="card">
-            <h2>My Work Process</h2>
-            <p>These are the basic steps I follow when creating a website:</p>
-
-            <ol>
-                <li>Create the HTML structure.</li>
-                <li>Add CSS styling to the webpage.</li>
-                <li>Test the website using Live Server.</li>
-                <li>Upload the project to GitHub.</li>
-                <li>Publish the website using GitHub Pages.</li>
-            </ol>
-        </div>
-
+        <section id="about" class="info-section">
+            <h2>About</h2>
+            <p>Learn the fundamentals of building modern websites.</p>
+        </section>
     </main>
 
     <footer>
-        <p>Original author: Basics of Web Development</p>
-        <p>Modified by: Ahmad Nawaz</p>
+        <p>Modified by: ahmad nawaz</p>
     </footer>
 
 </body>
 </html>
-
